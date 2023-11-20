@@ -17,13 +17,14 @@ header {
 }
 
 h3{
-    text-align: center;
+    text-align: left;
     color: #a81199
 }
 
 
 footer{
     text-align: center
+    
 }
 nav ul {
     list-style: none;
@@ -45,8 +46,9 @@ img{
  }
 
 .column {
-    flex: 1;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .column h3 {
